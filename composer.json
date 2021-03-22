@@ -1,0 +1,19 @@
+{
+    "name": "php/exam",
+    "description": "A package test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kent",
+            "email": "Kent.hsieh@104.com.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+              "Php\\Exam\\": "src/"
+          }
+      },
+    "require": {}
+}
